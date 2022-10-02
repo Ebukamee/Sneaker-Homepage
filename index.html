@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sneakers-Home page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- <div id="lightbox"></div> -->
+    <header id="desktop">
+      <img src="icon-menu.svg" alt="" id="menu">
+      <img src="logo.svg" alt="logo" id="logo" />
+      <div id="ul">
+        <ul>
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div id="right">
+        <img src="icon-cart.svg" alt="cart" id="carte"/>
+        <img src="image-avatar.png" id="profile" alt="profile" />
+      </div>
+      <span id="add"></span>
+    </header>
+    <div id="meniu">
+      <img src="icon-close.svg" alt="" id="cloxe">
+      <p>Collections</p>
+      <p>Men</p>
+      <p>Women</p>
+      <p>About</p>
+      <p>Contact</p>
+    </div>
+    <div id="lightbox" class="lb">
+      <div class="box" id="boxx">
+        <img src="icon-close.svg" alt="" id="close">
+        <!--<img src="image-product-1.jpg" class="huge" id="otu" alt="sneaker1" />
+        <img src="image-product-2.jpg" class="huge" id="abuo" alt="sneaker1" />
+        <img src="image-product-3.jpg" class="huge" id="ato" alt="sneaker1" />
+        <img src="image-product-4.jpg" class="huge" id="ano" alt="sneaker1" /> -->
+          <div id="slideShowContainer2">
+
+           <div class="mySlide">
+        
+            <img class="homePageSlides" id="slidePic1" src="image-product-1.jpg">
+        
+          </div>
+        
+          <div class="mySlide">
+        
+            <img class="homePageSlides" id="pic2" src="image-product-2.jpg">
+          </div>
+          <div class="mySlide">
+            <img class="homePageSlides" id="pic3" src="image-product-3.jpg" alt="3.jpg">
+          </div>
+          <div class="mySlide">
+            <img class="homePageSlides" src="image-product-4.jpg" alt="3.jpg">
+          </div>
+        </div>
+
+        <img src="icon-previous.svg" id="pre" class="pre" onclick="Plus(-1)" alt="">
+        <img src="icon-next.svg" id="next" class="next"  alt="" onclick="Plus(1)">
+        <div id="pics">
+          <img
+            src="image-product-1-thumbnail.jpg"
+            alt="sneaker1"
+            id="uno"
+            class="thumb"
+          />
+          <img
+            src="image-product-2-thumbnail.jpg"
+            alt="sneaker1"
+            id="dos"
+            class="thumb"
+          />
+          <img
+            src="image-product-3-thumbnail.jpg"
+            alt="sneaker1"
+            id="tres"
+            class="thumb"
+          />
+          <img
+            src="image-product-4-thumbnail.jpg"
+            alt="sneaker1"
+            id="cuatro"
+            class="thumb"
+          />
+        </div>
+    </div>
+    </div>
+    <hr />
+    <main id="desktopm">
+      <div id="cart">
+        <h4 style="display: inline-block;">Cart</h4>
+        <img src="icon-close.svg" alt="" id="kulosa"><hr>
+        <div id="inner">
+          <img src="image-product-1-thumbnail.jpg" alt="">
+          <span id="congrats">
+            <p id="congrat">Fall limited Edition <br> Sneakers</p>
+            <img src="icon-delete.svg" alt="" id="delete">
+            <p id="alt"></p>
+          </span>
+          <button >Checkout</button>
+        </div>
+        <p id="empty">Your cart is empty</p>
+      </div>
+      <div class="main" id="left">
+        <img src="image-product-1.jpg" id="hero" alt="sneaker1" />
+        <div id="picz">
+          <img
+            src="image-product-1-thumbnail.jpg"
+            alt="sneaker1"
+            id="thumb_one"
+            class="thumb"
+          />
+          <img
+            src="image-product-2-thumbnail.jpg"
+            alt="sneaker1"
+            id="thumb_two"
+            class="thumb"
+          />
+          <img
+            src="image-product-3-thumbnail.jpg"
+            alt="sneaker1"
+            id="thumb_three"
+            class="thumb"
+          />
+          <img
+            src="image-product-4-thumbnail.jpg"
+            alt="sneaker1"
+            id="thumb_four"
+            class="thumb"
+          />
+        </div>
+      </div>
+      <div id="slideShowContainer">
+
+        <div class="mySlides">
+      
+          <img  src="image-product-1.jpg">
+      
+        </div>
+      
+        <div class="mySlides">
+      
+          <img  src="image-product-2.jpg">
+      
+        </div>
+        <div class="mySlides">
+          <img src="image-product-3.jpg" alt="3.jpg">
+        </div>
+        <div class="mySlides">
+          <img  src="image-product-4.jpg" alt="3.jpg">
+        </div>
+        <a class="pre" id="pree" onclick="plusSlides(-1)"><img src="icon-previous.svg" alt=""></a>
+      
+        <a class="next"  id="nexte" onclick="plusSlides(1)"><img src="icon-next.svg" alt=""></a>
+      </div>
+      <div class="main" id="other">
+        <h4>Sneaker Company</h4>
+        <h1>Fall limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneaker are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer
+        </p>
+        <div id="price">
+          <h2>$125.00</h2>
+          <span>50%</span>
+          <h4><strike>$250.00</strike></h4>
+        </div>
+        <div id="pay">
+          <div id="button">
+            <button id="minus"<img src="icon-minus.svg" alt="minus" /></button>
+            <span id="p"><p id="inc"></p></span>
+            <button id="plus"><img src="icon-plus.svg" alt="plus"  /></button>
+          </div>
+          <button id="To"><img src="cart.svg" alt="" /> Add to cart</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
